@@ -1,0 +1,31 @@
+/* PC */
+@media (min-width: 1024) {
+    
+}
+/* TABLET */
+@media (min-width : 740px) and (max-width: 1023px){
+    .post-action {
+        display: none;
+    }
+    .commentaction {
+        display: block;
+    }
+}
+/* MOBILE */
+@media (max-width : 740px) {
+    .right-container {
+        width: 100%;
+    }
+
+    .left-container {
+        width: 100%;
+    }
+
+    .left-container .post-action .item-action, .banner-3, .carousel-indicators, .advert, .comment-banner{
+        display: none;
+    }
+
+    .commentaction {
+        display: block;
+    }
+}

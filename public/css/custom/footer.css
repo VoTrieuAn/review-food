@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    position: relative;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #b7abab; 
+}
+
+ul li a:hover {
+    color: black;
+}
+
+#check {
+    position: relative;
+    left: -35px;
+}
+
+.row-margin {
+    margin-bottom: 42px; 
+}

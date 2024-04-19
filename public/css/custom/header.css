@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-normal-gray[data-v-c3b3d5a8] {
+    font-weight: 600;
+}
+
+.text-normal-gray[data-v-c3b3d5a8] {
+    color: #898c95;
+}
+
+.text-normal-gray[data-v-c3b3d5a8] {
+    font-family: myRiviuFont;
+    font-size: 16px;
+}
+
+.keyword-search[data-v-c3b3d5a8] {
+    background: #f2f2f2;
+    border-radius: 18px;
+    font-size: 16px;
+}
+/* Phần header */
+/* Logo */
+.logo {
+    height: 46px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+/* End logo */
+
+/* Phần thanh search */
+.container-fluid .search-box[data-search] {
+    width: 380px;
+    float: right;
+    border-radius: 24px;
+    position: relative;
+}
+
+.container-fluid .search-box .box-search[data-search] {
+    position: relative;
+    border-radius: 24px;
+    display: inherit;
+}
+
+.container-fluid .search-box .box-search .search-btn[data-search] {
+    position: absolute;
+    left: 15px;
+    top: -4px;
+    line-height: 50px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+}
+
+.container-fluid .search-box .box-search input[data-search] {
+    font-size: 16px;
+    height: 50px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding-left: 45px;
+    width: 100%;
+    background: #f4f5f8;
+    border-radius: 24px;
+    outline: none;
+    border: none;
+}
+
+.container-fluid .search-box .province-box[data-search] {
+    cursor: pointer;
+    line-height: 47px;
+    color: #898c95;
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+    top: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container-fluid .box-shadow[data-search] {
+    box-shadow: 1px 1px 6px 3px hsla(0,0%,80.8%,.45882);
+}
+/* End phần thanh search */
+
+/* Phần dropdown khi search */
+.container-fluid .search-box .box-search .dropdown-list[data-search] {
+    display: none;
+}
+
+.container-fluid .search-box .box-search .dropdown-list[data-search] {
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    padding: 0 10px 17px 17px;
+    background-color: #fff;
+    border-radius: 24px;
+
+}
+
+.container-fluid .search-box .dropdown-list[data-search] {
+    padding: 0 0 17px 17px;
+    background-color: #fff;
+    border-top: 1px solid #f4f5f8;
+}
+
+/* End phần dropdown khi search */
+
+/* Phần nút login và contact */
+.auth-content[data-search] {
+    width: 150px;
+}
+
+.auth-content .login-btn[data-search] {
+    border-radius: 12px;
+    width: 140px;
+    height: 50px;
+    background-color: rgba(255, 157, 157, .16078);
+}
+
+.auth-content > .hidden {
+    display: none !important;
+}
+
+.avatar .name-avt{
+    font-weight: 600;
+    margin-left: 8px;
+    color: #f60;
+}
+
+.avatar .image-avt img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid #f60;
+}
+
+.dropdown-menu > li {
+    width: 100%;
+    line-height: 36px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f60 !important;
+    background-color: #f0f2f4 !important;
+    cursor: pointer;
+}
+
+.dropdown-item:focus, .dropdown-item {
+    font-weight: 600 !important;
+}
+
+.auth-content .login-btn .login-item[data-search] {
+    width: 130px;
+}
+
+.btn-color-primary-gradient[data-search] {
+    background-image: linear-gradient(90deg, #f60, #ff9f00);
+    color: #fff;
+}
+
+.btn-form[data-search] {
+    /* font-family: myRiviuFont; */
+    font-weight: 700;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Modal login */
+input[data-v-351edb93] {
+    background: transparent;
+    border: unset;
+    box-shadow: unset;
+}
+
+.input-login[data-v-351edb93] {
+    height: 40px;
+    border-radius: 16px;
+    background-color: #f4f5f8;
+    width: 100%;
+    padding: 5px 5px 5px 25px;
+    margin-top: 15px;
+    font-size: 14x;
+    color: #000;
+    outline: none;
+    border: none;
+}
+
+.forget-pass[data-v-351edb93] {
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #a8aaaf;
+}
+
+.login-btn[data-login] {
+    background-image: linear-gradient(90deg, #f60, #ff9f00);
+    color: #fff;
+}
+
+.login-line {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    color: #a8aaaf;
+}
+
+.line-border {
+    text-align: center;
+}
+.login-line:after,
+.login-line:before {
+    color: #a8aaaf;
+    width: calc(50% - 28px);
+}
+
+.login-line:after {
+    margin-left: 10px;
+}
+
+.line-border:after, 
+.line-border:before {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid;
+    transform: translateY(-4px);
+}
+
+.box-img {
+    cursor: pointer;
+    width: calc(50% - 10px);
+    height: 80px;
+    border-radius: 16px;
+    border: 1px solid #f0f2f4;
+    display: flex;
+    align-items: center
+}
+
+.box-img img {
+    object-fit: contain;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.register-text,
+.register-text p {
+    height: 16px;
+}
+
+.register-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f60;
+    cursor: pointer;
+}
+/* End modal login */
+/* Modal location */
+.modal-pheader  {
+    font-weight: 700;
+    font-size: 15px;
+    white-space: nowrap;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    line-height: 33px;
+}
+
+.province-content[data-v-c78caee6] {
+    width: 100%;
+    float: left;
+}
+
+.search-province[data-v-c78caee6] {
+    height: 50px;
+    position: relative;
+}
+
+.search-location {
+    width: 100%;
+    position: relative;
+    background: #f4f5f8;
+    border-radius: 24px;
+}
+
+.search-icon {
+    width: 10%;
+}
+
+.search-location input {
+    border: none;
+    width: 90%;
+    outline: none;
+    height: 50px;
+    background: #f4f5f8;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.title-item-hover:hover {
+    color: #f60;
+}
+
+.title-item-hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.list-province .province-item {
+    height: 55px;
+    line-height: 55px;
+    padding-left: 12px;
+}
+
+.list-province .province-item:hover {
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+/* End modal location */
+/* End phần nút login và contact */

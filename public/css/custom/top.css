@@ -1,0 +1,101 @@
+.banner img {
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.title-collection {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+}
+
+.title-collection:hover {
+    cursor: pointer;
+    color: black !important;
+}
+
+.view-more {
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #898c95;
+    text-decoration: none;
+}
+
+.collection-item {
+    max-height: 240px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.1), 0 0 2px 0 rgba(0,0,0,.09);
+}
+
+.collection-item .br-mark {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .43922);
+    z-index: 1;
+    position: absolute;
+}
+
+.thumanail-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 148px;
+}
+
+.carousel-inner{
+    overflow: visible;
+}
+
+.info {
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.text-truncate {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+.review_count {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -.47px;
+    line-height: 25px;
+}
+
+.content-register {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    float: left;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.slogan:hover {
+    color: black !important;
+    cursor: pointer;
+}

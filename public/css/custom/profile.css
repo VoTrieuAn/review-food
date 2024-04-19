@@ -1,0 +1,58 @@
+.image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700 !important;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #898c95;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.btn {
+    background-image: linear-gradient(90deg, #f60, #ff9f00);
+    font-weight: 600;
+    border: none;
+}
+
+.author-username {
+    font-size: 16px;
+    color: #898c95;
+}
+
+.author-summary a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-title:hover {
+    color: orangered;
+}
+
+.card .ten:hover {
+    color: black !important;
+    cursor: pointer;
+}
+
+.ti-heart:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
